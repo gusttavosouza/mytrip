@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity"
+    android:theme="@style/Theme.AppCompat.Light.NoActionBar"
+    >
+
+    <Toolbar
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/teal_700"
+        android:title="MyTrip "
+        android:titleTextColor="@color/white"
+        />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/distancia"
+        android:id="@+id/editDistance"
+        />
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/preco"
+        android:id="@+id/editPreco"
+        />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/autonomia"
+        android:id="@+id/editAutonomia"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="R$ 0,00"
+        android:id="@+id/textResult"
+        />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/calcular"
+        android:id="@+id/btnCalcular" />
+</LinearLayout>
