@@ -12,29 +12,51 @@
     <Toolbar
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:background="@color/teal_700"
+        android:background="@color/colorPrimary"
         android:title="MyTrip "
-        android:titleTextColor="@color/white"
+        android:titleTextColor="@color/colorText"
         />
 
     <EditText
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
         android:hint="@string/distancia"
+        android:layout_height="50dp"
+        android:textColor="@color/colorText"
+        android:textColorHint="@color/colorDarkGray"
+        android:layout_marginTop="15dp"
+        android:layout_marginRight="15dp"
+        android:layout_marginLeft="15dp"
+        android:background="@drawable/round_et"
+        android:gravity="center"
         android:id="@+id/editDistance"
         />
     <EditText
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
         android:hint="@string/preco"
         android:id="@+id/editPreco"
+        android:layout_height="50dp"
+        android:textColor="@color/colorText"
+        android:textColorHint="@color/colorDarkGray"
+        android:layout_marginTop="15dp"
+        android:layout_marginRight="15dp"
+        android:layout_marginLeft="15dp"
+        android:gravity="center"
+        android:background="@drawable/round_et"
+
         />
 
     <EditText
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
         android:hint="@string/autonomia"
         android:id="@+id/editAutonomia"
+        android:layout_height="50dp"
+        android:textColor="@color/colorText"
+        android:textColorHint="@color/colorDarkGray"
+        android:layout_marginTop="15dp"
+        android:layout_marginRight="15dp"
+        android:layout_marginLeft="15dp"
+        android:gravity="center"
+        android:background="@drawable/round_et"
         />
 
     <TextView
